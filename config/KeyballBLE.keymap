@@ -57,19 +57,19 @@
 
         SYMBOL {
             bindings = <
-&kp ESCAPE    &kp DOLLAR  &kp QUESTION  &kp EXCLAMATION  &kp GRAVE                                    &kp CARET   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE        &kp RIGHT_BRACE
-&kp LC(A)     &kp LC(S)   &kp AT_SIGN   &kp HASH         &kp TILDE  &kp LG(D)      &kp DOUBLE_QUOTES  &kp PERIOD  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH             &kp SEMICOLON
-&kp LC(Z)     &kp LC(Y)   &kp PERCENT   &kp AMPERSAND    &kp LC(W)  &kp LC(P)      &kp SQT            &kp COMMA   &kp LESS_THAN         &kp GREATER_THAN       &kp NON_US_BACKSLASH  &kp COLON
-&kp CAPSLOCK  &kp LC(H)   &kp LC(F)     &trans           &trans     &trans         &trans             &trans                                                                         &kp PIPE
+&kp ESCAPE  &kp DOLLAR  &kp QUESTION  &kp EXCLAMATION  &kp GRAVE                                        &kp CARET   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE        &kp RIGHT_BRACE
+&kp LC(A)   &kp LC(S)   &kp AT_SIGN   &kp HASH         &kp TILDE  &kp LS(LG(S))      &kp DOUBLE_QUOTES  &kp PERIOD  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH             &kp SEMICOLON
+&kp LC(Z)   &kp LC(Y)   &kp PERCENT   &kp AMPERSAND    &kp LC(W)  &kp LC(P)          &kp SQT            &kp COMMA   &kp LESS_THAN         &kp GREATER_THAN       &kp NON_US_BACKSLASH  &kp COLON
+&kp LG(D)   &kp LC(H)   &kp LC(F)     &trans           &trans     &trans             &trans             &trans                                                                         &kp PIPE
             >;
         };
 
         NUM_FN {
             bindings = <
-&none   &kp F7  &kp F8  &kp F9  &kp F11                         &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
-&none   &kp F4  &kp F5  &kp F6  &kp F10  &none       &kp SLASH  &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&none   &kp F1  &kp F2  &kp F3  &kp F12  &none       &none      &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
-&trans  &trans  &trans  &trans  &trans   &trans      &trans     &trans                                                  &trans
+&kp CAPSLOCK  &kp F7  &kp F8  &kp F9  &kp F11                         &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
+&none         &kp F4  &kp F5  &kp F6  &kp F10  &none       &kp SLASH  &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&none         &kp F1  &kp F2  &kp F3  &kp F12  &none       &trans     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
+&trans        &trans  &trans  &trans  &trans   &trans      &trans     &trans                                                  &trans
             >;
         };
 
