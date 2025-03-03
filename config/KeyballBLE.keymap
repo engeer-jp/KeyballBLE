@@ -49,8 +49,8 @@
         default_layer {
             bindings = <
 &kp Q         &kp W             &kp E           &kp R                       &kp T                                                   &kp Y        &kp U  &kp I      &kp O      &kp P
-&kp A         &kp S             &kp D           &kp F                       &kp G      &mt LC(X) LC(C)             &kp UP_ARROW     &kp H        &kp J  &kp K      &kp L      &kp MINUS
-&kp Z         &kp X             &kp C           &kp V                       &kp B      &kp LC(V)                   &kp DOWN_ARROW   &kp N        &kp M  &mkp LCLK  &mkp RCLK  &kp UNDERSCORE
+&kp A         &kp S             &kp D           &kp F                       &kp G      &kp UP_ARROW                &mt LC(X) LC(C)  &kp H        &kp J  &kp K      &kp L      &kp MINUS
+&kp Z         &kp X             &kp C           &kp V                       &kp B      &kp DOWN_ARROW              &kp LC(V)        &kp N        &kp M  &mkp LCLK  &mkp RCLK  &kp DELETE
 &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &lt_to_layer_0 1 LC(SPACE)  &lt 3 TAB  &lt_to_layer_0 4 SPACE      &lt 3 BACKSPACE  &lt 2 ENTER                               &kp LEFT_COMMAND
             >;
         };
@@ -59,8 +59,8 @@
             bindings = <
 &kp ESCAPE  &kp DOLLAR  &kp QUESTION  &kp EXCLAMATION  &kp GRAVE                                        &kp CARET   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE        &kp RIGHT_BRACE
 &kp LC(A)   &kp LC(S)   &kp AT_SIGN   &kp HASH         &kp TILDE  &kp LS(LG(S))      &kp DOUBLE_QUOTES  &kp PERIOD  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH             &kp SEMICOLON
-&kp LC(Z)   &kp LC(Y)   &kp PERCENT   &kp AMPERSAND    &kp LC(W)  &kp LC(P)          &kp SQT            &kp COMMA   &kp LESS_THAN         &kp GREATER_THAN       &kp NON_US_BACKSLASH  &kp COLON
-&kp LG(D)   &kp LC(H)   &kp LC(F)     &trans           &trans     &trans             &trans             &trans                                                                         &kp PIPE
+&kp LC(Z)   &kp LC(Y)   &kp PERCENT   &kp AMPERSAND    &kp UNDER  &kp LC(W)          &kp SQT            &kp COMMA   &kp LESS_THAN         &kp GREATER_THAN       &kp NON_US_BACKSLASH  &kp COLON
+&kp LC(P)   &kp LC(H)   &kp LC(F)     &trans           &trans     &trans             &trans             &trans                                                                         &kp PIPE
             >;
         };
 
