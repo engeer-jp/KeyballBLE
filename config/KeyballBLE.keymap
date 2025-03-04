@@ -15,10 +15,10 @@
 
         default_layer {
             bindings = <
-&kp Q                &kp W             &kp E           &kp R          &kp T                                           &kp Y        &kp U  &kp I      &kp O      &kp P
-&kp A                &kp S             &kp D           &kp F          &kp G      &kp UP_ARROW        &mt LC(X) LC(C)  &kp H        &kp J  &kp K      &kp L      &kp MINUS
-&kp Z                &kp X             &kp C           &kp V          &kp B      &kp DOWN_ARROW      &kp LC(V)        &kp N        &kp M  &mkp LCLK  &mkp RCLK  &lt 5 DELETE
-&mt LEFT_ALT ESCAPE  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LC(SPACE)  &kp SPACE  &kp TAB             &lt 2 BACKSPACE  &lt 3 ENTER                               &kp LEFT_COMMAND
+&kp Q                &kp W             &kp E           &kp R            &kp T                                           &kp Y        &kp U  &kp I      &kp O      &kp P
+&kp A                &kp S             &kp D           &kp F            &kp G      &kp UP_ARROW        &mt LC(X) LC(C)  &kp H        &kp J  &kp K      &kp L      &kp MINUS
+&kp Z                &kp X             &kp C           &kp V            &kp B      &kp DOWN_ARROW      &kp LC(V)        &kp N        &kp M  &mkp LCLK  &mkp RCLK  &kp DELETE
+&mt LEFT_ALT ESCAPE  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &lt 1 LC(SPACE)  &kp SPACE  &kp TAB             &lt 2 BACKSPACE  &lt 3 ENTER                               &kp LEFT_COMMAND
             >;
         };
 
@@ -51,10 +51,10 @@
 
         dammy {
             bindings = <
-&kp Q                &kp W             &kp E           &kp R          &kp T                                           &kp Y        &kp U  &kp I      &kp O      &kp P
-&kp A                &kp S             &kp D           &kp F          &kp G      &kp UP_ARROW        &mt LC(X) LC(C)  &kp H        &kp J  &kp K      &kp L      &kp MINUS
-&kp Z                &kp X             &kp C           &kp V          &kp B      &kp DOWN_ARROW      &kp LC(V)        &kp N        &kp M  &mkp LCLK  &mkp RCLK  &lt 5 DELETE
-&mt LEFT_ALT ESCAPE  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LC(SPACE)  &kp SPACE  &kp TAB             &lt 2 BACKSPACE  &lt 3 ENTER                               &kp LEFT_COMMAND
+&kp Q                &kp W             &kp E           &kp R        &kp T                                           &kp Y        &kp U  &kp I      &kp O      &kp P
+&kp A                &kp S             &kp D           &kp F        &kp G      &kp UP_ARROW        &mt LC(X) LC(C)  &kp H        &kp J  &kp K      &kp L      &kp MINUS
+&kp Z                &kp X             &kp C           &kp V        &kp B      &kp DOWN_ARROW      &kp LC(V)        &kp N        &kp M  &mkp LCLK  &mkp RCLK  &kp DELETE
+&mt LEFT_ALT ESCAPE  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &lt 1 SPACE  &kp SPACE  &kp TAB             &lt 2 BACKSPACE  &lt 3 ENTER                               &kp LEFT_COMMAND
             >;
         };
 
