@@ -42,8 +42,8 @@
 
         MOUSE_ARROW {
             bindings = <
-&none            &kp PAGE_UP       &kp UP_ARROW    &kp PAGE_DOWN      &none                                          &none      &none           &msc SCRL_UP    &none            &none
-&kp HOME         &kp LEFT          &kp DOWN        &kp RIGHT          &kp END         &none                   &none  &none      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none
+&none            &kp PAGE_UP       &kp UP_ARROW    &kp PAGE_DOWN      &none                                          &none      &kp PAGE_UP     &msc SCRL_UP    &kp PAGE_DOWN    &none
+&kp HOME         &kp LEFT          &kp DOWN        &kp RIGHT          &kp END         &none                   &none  &kp HOME   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp END
 &kp LC(LS(TAB))  &kp LC(PAGE_UP)   &kp LA(TAB)     &kp LC(PAGE_DOWN)  &kp LC(TAB)     &none                   &none  &mkp MCLK  &mkp MB4        &mkp LCLK       &mkp RCLK        &mkp MB5
 &kp LEFT_ALT     &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_CONTROL   &kp LEFT_SHIFT  &kp LC(LEFT_SHIFT)      &none  &none                                                       &none
             >;
