@@ -15,54 +15,54 @@
 
         default_layer {
             bindings = <
-&kp Q                &kp W             &kp E           &kp R      &kp T                                           &kp Y        &kp U  &kp I      &kp O      &kp P
-&kp A                &kp S             &kp D           &kp F      &kp G      &kp UP_ARROW        &mt LC(X) LC(C)  &kp H        &kp J  &kp K      &kp L      &kp MINUS
-&kp Z                &kp X             &kp C           &kp V      &kp B      &kp DOWN_ARROW      &kp LC(V)        &kp N        &kp M  &mkp LCLK  &mkp RCLK  &kp DELETE
-&mt LEFT_ALT ESCAPE  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &lt 1 TAB  &kp SPACE  &kp LC(SPACE)       &lt 2 BACKSPACE  &lt 3 ENTER                               &kp LEFT_COMMAND
+&mt ESCAPE Q  &kp W             &kp E           &kp R      &kp T                                           &kp Y        &kp U  &kp I      &kp O      &kp P
+&kp A         &kp S             &kp D           &kp F      &kp G      &kp UP_ARROW        &mt LC(X) LC(C)  &kp H        &kp J  &kp K      &kp L      &kp MINUS
+&kp Z         &kp X             &kp C           &kp V      &kp B      &kp DOWN_ARROW      &kp LC(V)        &kp N        &kp M  &mkp LCLK  &mkp RCLK  &kp DELETE
+&kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &lt 1 TAB  &kp SPACE  &kp LC(SPACE)       &lt 2 BACKSPACE  &lt 3 ENTER                               &kp LEFT_COMMAND
             >;
         };
 
         SYMBOL {
             bindings = <
-&kp ESCAPE  &kp DOLLAR  &kp QUESTION  &kp EXCLAMATION  &kp GRAVE                                        &kp CARET   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE        &kp RIGHT_BRACE
-&kp LC(A)   &kp LC(S)   &kp AT_SIGN   &kp HASH         &kp TILDE  &kp LS(LG(S))      &kp DOUBLE_QUOTES  &kp PERIOD  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH             &kp SEMICOLON
-&kp LC(Z)   &kp LC(Y)   &kp PERCENT   &kp AMPERSAND    &kp UNDER  &kp LC(W)          &kp SQT            &kp COMMA   &kp LESS_THAN         &kp GREATER_THAN       &kp NON_US_BACKSLASH  &kp COLON
-&kp LC(P)   &kp LC(H)   &kp LC(F)     &trans           &trans     &trans             &trans             &trans                                                                         &kp PIPE
+&kp GRAVE  &kp LC(W)  &kp QUESTION  &kp EXCLAMATION  &kp DOLLAR                                   &kp CARET          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE
+&kp LC(A)  &kp LC(S)  &kp AT_SIGN   &kp HASH         &kp AMPERSAND  &kp LS(LG(S))      &kp SQT    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH       &kp NON_US_BACKSLASH
+&kp LC(Z)  &kp LC(Y)  &kp PERCENT   &kp UNDERSCORE   &kp TILDE      &kp LG(D)          &kp COMMA  &kp PERIOD         &kp LESS_THAN         &kp GREATER_THAN       &kp SEMICOLON   &kp COLON
+&kp LC(P)  &kp LC(H)  &kp LC(F)     &none            &none          &none              &none      &none                                                                           &kp PIPE
             >;
         };
 
         NUM_FN {
             bindings = <
-&kp LG(NUMBER_3)  &kp F7            &kp F8          &kp F9  &kp F11                          &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
-&kp LG(NUMBER_2)  &kp F4            &kp F5          &kp F6  &kp F10  &none       &kp SLASH   &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp LG(NUMBER_1)  &kp F1            &kp F2          &kp F3  &kp F12  &none       &kp PERIOD  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DELETE
-&kp CAPSLOCK      &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans  &trans   &trans      &trans      &trans                                                  &trans
+&kp LG(NUMBER_3)  &kp F7            &kp F8          &kp F9  &kp F11                           &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
+&kp LG(NUMBER_2)  &kp F4            &kp F5          &kp F6  &kp F10  &kp F12      &kp SLASH   &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp LG(NUMBER_1)  &kp F1            &kp F2          &kp F3  &none    &none        &kp PERIOD  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DELETE
+&kp CAPSLOCK      &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none   &none    &none        &none       &none                                                   &none
             >;
         };
 
         MOUSE_ARROW {
             bindings = <
-&kp LC(LEFT_SHIFT)  &kp HOME      &kp UP_ARROW  &kp END      &trans                             &trans     &msc MOVE_Y(10)  &msc SCRL_UP    &msc MOVE_Y(-10)  &trans
-&kp PAGE_UP         &kp LEFT      &kp DOWN      &kp RIGHT    &kp PAGE_DOWN  &trans      &trans  &trans     &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT   &trans
-&kp LC(LS(TAB))     &kp LC(HOME)  &kp LA(TAB)   &kp LC(END)  &kp LC(TAB)    &trans      &trans  &mkp MCLK  &mkp MB4         &mkp LCLK       &mkp RCLK         &mkp MB5
-&trans              &trans        &trans        &trans       &trans         &trans      &trans  &trans                                                        &trans
+&none            &kp PAGE_UP       &kp UP_ARROW    &kp PAGE_DOWN      &none                                          &none      &none           &msc SCRL_UP    &none            &none
+&kp HOME         &kp LEFT          &kp DOWN        &kp RIGHT          &kp END         &none                   &none  &none      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none
+&kp LC(LS(TAB))  &kp LC(PAGE_UP)   &kp LA(TAB)     &kp LC(PAGE_DOWN)  &kp LC(TAB)     &none                   &none  &mkp MCLK  &mkp MB4        &mkp LCLK       &mkp RCLK        &mkp MB5
+&kp LEFT_ALT     &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_CONTROL   &kp LEFT_SHIFT  &kp LC(LEFT_SHIFT)      &none  &none                                                       &none
             >;
         };
 
         dammy {
             bindings = <
-&kp Q                &kp W             &kp E           &kp R      &kp T                                           &kp Y        &kp U  &kp I      &kp O      &kp P
-&kp A                &kp S             &kp D           &kp F      &kp G      &kp UP_ARROW        &mt LC(X) LC(C)  &kp H        &kp J  &kp K      &kp L      &kp MINUS
-&kp Z                &kp X             &kp C           &kp V      &kp B      &kp DOWN_ARROW      &kp LC(V)        &kp N        &kp M  &mkp LCLK  &mkp RCLK  &kp DELETE
-&mt LEFT_ALT ESCAPE  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &lt 1 TAB  &kp SPACE  &kp LC(SPACE)       &lt 2 BACKSPACE  &lt 3 ENTER                               &kp LEFT_COMMAND
+&mt ESCAPE Q  &kp W             &kp E           &kp R      &kp T                                           &kp Y        &kp U  &kp I      &kp O      &kp P
+&kp A         &kp S             &kp D           &kp F      &kp G      &kp UP_ARROW        &mt LC(X) LC(C)  &kp H        &kp J  &kp K      &kp L      &kp MINUS
+&kp Z         &kp X             &kp C           &kp V      &kp B      &kp DOWN_ARROW      &kp LC(V)        &kp N        &kp M  &mkp LCLK  &mkp RCLK  &kp DELETE
+&kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &lt 1 TAB  &kp SPACE  &kp LC(SPACE)       &lt 2 BACKSPACE  &lt 3 ENTER                               &kp LEFT_COMMAND
             >;
         };
 
         BLUETOOTH {
             bindings = <
-&trans        &trans            &trans          &trans         &trans                                  &trans        &trans        &trans        &trans          &kp DELETE
-&trans        &trans            &trans          &trans         &trans   &trans         &studio_unlock  &trans        &bt BT_SEL 4  &bt BT_CLR    &bt BT_CLR_ALL  &kp RIGHT_CONTROL
-&trans        &trans            &trans          &trans         &trans   &trans         &bootloader     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp RIGHT_SHIFT
+&none         &none             &none           &none          &none                                   &none         &none         &none         &none           &kp DELETE
+&none         &none             &none           &none          &none    &none          &studio_unlock  &none         &bt BT_SEL 4  &bt BT_CLR    &bt BT_CLR_ALL  &kp RIGHT_CONTROL
+&none         &none             &none           &none          &none    &none          &bootloader     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp RIGHT_SHIFT
 &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LC(SPACE)  &kp TAB  &kp SPACE      &kp BACKSPACE   &kp ENTER                                                 &kp LEFT_COMMAND
             >;
         };
