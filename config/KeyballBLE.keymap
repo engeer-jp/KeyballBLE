@@ -35,15 +35,15 @@
             bindings = <
 &kp LG(NUMBER_3)  &kp F7            &kp F8          &kp F9  &kp F11                           &kp EQUAL     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS
 &kp LG(NUMBER_2)  &kp F4            &kp F5          &kp F6  &kp F10  &kp F12      &kp SLASH   &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp LG(NUMBER_1)  &kp F1            &kp F2          &kp F3  &none    &none        &kp PERIOD  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DELETE
+&kp LG(NUMBER_1)  &kp F1            &kp F2          &kp F3  &none    &none        &kp PERIOD  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDERSCORE
 &kp CAPSLOCK      &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none   &none    &none        &none       &none                                                   &none
             >;
         };
 
         MOUSE_ARROW {
             bindings = <
-&none            &kp PAGE_UP       &kp UP_ARROW    &kp PAGE_DOWN      &none                                          &none      &kp PAGE_UP     &msc SCRL_UP    &kp PAGE_DOWN    &none
-&kp HOME         &kp LEFT          &kp DOWN        &kp RIGHT          &kp END         &none                   &none  &kp HOME   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp END
+&none            &kp PAGE_UP       &kp UP_ARROW    &kp PAGE_DOWN      &none                                          &kp S      &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp D
+&kp HOME         &kp LEFT          &kp DOWN        &kp RIGHT          &kp END         &none                   &none  &kp HOME   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
 &kp LC(LS(TAB))  &kp LC(PAGE_UP)   &kp LA(TAB)     &kp LC(PAGE_DOWN)  &kp LC(TAB)     &none                   &none  &mkp MCLK  &mkp MB4        &mkp LCLK       &mkp RCLK        &mkp MB5
 &kp LEFT_ALT     &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_CONTROL   &kp LEFT_SHIFT  &kp LC(LEFT_SHIFT)      &none  &none                                                       &none
             >;
