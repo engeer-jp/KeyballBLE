@@ -15,10 +15,10 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE        &kp Q             &kp W             &kp E            &kp R                                       &kp Y        &kp U  &kp I      &kp O      &kp P
-&kp TAB           &kp A             &kp S             &kp D            &kp F        &kp G           &kp T          &kp H        &kp J  &kp K      &kp L      &kp MINUS
-&kp LEFT_SHIFT    &mt PERIOD COMMA  &kp Z             &kp X            &kp C        &kp V           &kp B          &kp N        &kp M  &mkp LCLK  &mkp RCLK  &mt LC(X) LC(C)
-&kp LEFT_CONTROL  &kp LEFT_ALT      &kp LEFT_COMMAND  &lt 2 LC(SPACE)  &lt 1 SPACE  &kp DELETE      &kp BACKSPACE  &lt 3 ENTER                               &kp LC(V)
+&kp ESCAPE        &kp Q             &mt LC(W) W       &kp E                         &kp R                                         &kp Y        &kp U  &kp I      &kp O      &mt LC(P) P
+&kp TAB           &mt LC(A) A       &mt LC(S) S       &kp D                         &mt LC(F) F  &kp G             &kp T          &kp H        &kp J  &kp K      &kp L      &mt UNDERSCORE MINUS
+&kp LEFT_SHIFT    &mt PERIOD COMMA  &mt LC(Z) Z       &mt LC(X) X                   &mt LC(C) C  &mt LC(V) V       &kp B          &kp N        &kp M  &mkp LCLK  &mkp RCLK  &mt PERIOD COMMA
+&kp LEFT_CONTROL  &kp LEFT_ALT      &kp LEFT_COMMAND  &mt LC(LEFT_SHIFT) LC(SPACE)  &lt 1 SPACE  &lt 2 DELETE      &kp BACKSPACE  &lt 3 ENTER                               &mt QUESTION EXCLAMATION
             >;
         };
 
@@ -27,34 +27,34 @@
 &kp GRAVE      &kp BACKSLASH  &kp LC(W)  &kp QUESTION  &kp EXCLAMATION                                    &kp CARET          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE
 &kp LS(LG(S))  &kp LC(A)      &kp LC(S)  &kp HASH      &kp AT_SIGN      &kp AMPERSAND      &kp COLON      &kp SEMICOLON      &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LS(LG(D))  &kp LC(Z)      &kp LC(Y)  &kp DOLLAR    &kp PERCENT      &kp TILDE          &kp SQT        &kp DOUBLE_QUOTES  &kp UNDERSCORE    &kp COMMA          &kp PERIOD            &kp SLASH
-&kp LC(P)      &kp LC(H)      &kp LC(F)  &none         &none            &kp DELETE         &kp BACKSPACE  &kp ENTER                                                                     &kp PIPE
+&kp LC(P)      &kp LC(H)      &kp LC(F)  &none         &none            &none              &kp BACKSPACE  &kp ENTER                                                                     &kp PIPE
             >;
         };
 
         NUM_FN {
             bindings = <
-&kp F1  &kp F5  &kp F9   &kp LG(NUMBER_3)  &kp EQUAL                                    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL     &kp UNDERSCORE
-&kp F2  &kp F6  &kp F10  &kp LG(NUMBER_2)  &kp PLUS      &kp MINUS       &kp PERIOD     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &kp MINUS
-&kp F3  &kp F7  &kp F11  &kp LG(NUMBER_1)  &kp ASTERISK  &kp SLASH       &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &kp SLASH
-&kp F4  &kp F8  &kp F12  &none             &kp SPACE     &kp DELETE      &kp BACKSPACE  &kp ENTER                                               &kp CAPSLOCK
+&kp F1  &kp F5  &kp F9   &kp LG(NUMBER_3)  &kp EQUAL                                   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL     &kp UNDERSCORE
+&kp F2  &kp F6  &kp F10  &kp LG(NUMBER_2)  &kp PLUS      &kp MINUS      &kp PERIOD     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &kp MINUS
+&kp F3  &kp F7  &kp F11  &kp LG(NUMBER_1)  &kp ASTERISK  &kp SLASH      &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &kp SLASH
+&kp F4  &kp F8  &kp F12  &none             &none         &none          &kp BACKSPACE  &kp ENTER                                               &kp CAPSLOCK
             >;
         };
 
         MOUSE_ARROW {
             bindings = <
-&none  &none            &kp PAGE_UP     &msc SCRL_UP     &kp PAGE_DOWN                                     &kp S      &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp D
-&none  &kp HOME         &msc SCRL_LEFT  &msc SCRL_DOWN   &msc SCRL_RIGHT    &kp END         &none          &kp HOME   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&none  &kp LC(LS(TAB))  &kp LC(TAB)     &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &none           &none          &mkp MCLK  &mkp MB4        &mkp LCLK       &mkp RCLK        &mkp MB5
-&none  &none            &none           &kp LC(SPACE)    &kp SPACE          &kp DELETE      &kp BACKSPACE  &none                                                       &none
+&none  &none            &kp PAGE_UP     &msc SCRL_UP     &kp PAGE_DOWN                             &kp S      &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp D
+&none  &kp HOME         &msc SCRL_LEFT  &msc SCRL_DOWN   &msc SCRL_RIGHT    &kp END         &none  &kp HOME   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
+&none  &kp LC(LS(TAB))  &kp LC(TAB)     &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &none           &none  &mkp MCLK  &mkp MB4        &mkp LCLK       &mkp RCLK        &mkp MB5
+&none  &none            &none           &kp LC(SPACE)    &kp SPACE          &kp DELETE      &none  &none                                                       &none
             >;
         };
 
         dammy {
             bindings = <
-&kp ESCAPE        &kp Q             &kp W             &kp E            &kp R                                       &kp Y        &kp U  &kp I      &kp O      &kp P
-&kp TAB           &kp A             &kp S             &kp D            &kp F        &kp G           &kp T          &kp H        &kp J  &kp K      &kp L      &kp MINUS
-&kp LEFT_SHIFT    &mt PERIOD COMMA  &kp Z             &kp X            &kp C        &kp V           &kp B          &kp N        &kp M  &mkp LCLK  &mkp RCLK  &mt LC(X) LC(C)
-&kp LEFT_CONTROL  &kp LEFT_ALT      &kp LEFT_COMMAND  &lt 2 LC(SPACE)  &lt 1 SPACE  &kp DELETE      &kp BACKSPACE  &lt 3 ENTER                               &kp LC(V)
+&kp ESCAPE        &kp Q             &mt LC(W) W       &kp E                         &kp R                                         &kp Y        &kp U  &kp I      &kp O      &mt LC(P) P
+&kp TAB           &mt LC(A) A       &mt LC(S) S       &kp D                         &mt LC(F) F  &kp G             &kp T          &kp H        &kp J  &kp K      &kp L      &mt UNDERSCORE MINUS
+&kp LEFT_SHIFT    &mt PERIOD COMMA  &mt LC(Z) Z       &mt LC(X) X                   &mt LC(C) C  &mt LC(V) V       &kp B          &kp N        &kp M  &mkp LCLK  &mkp RCLK  &mt PERIOD COMMA
+&kp LEFT_CONTROL  &kp LEFT_ALT      &kp LEFT_COMMAND  &mt LC(LEFT_SHIFT) LC(SPACE)  &lt 1 SPACE  &lt 2 DELETE      &kp BACKSPACE  &lt 3 ENTER                               &mt QUESTION EXCLAMATION
             >;
         };
 
